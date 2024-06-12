@@ -55,6 +55,6 @@ for file in files:
     # Add company name and logo
     pdf.set_font(family="Times", size=10, style="B")
     pdf.cell(w=30, h=14, txt=f"CompanyName")
-    pdf.image("pythonhow.png", w=10)
+    pdf.image("logo.png", w=10)
 
     pdf.output(f"PDFs/{pdf_name}.pdf")
